@@ -1,0 +1,62 @@
+.closebutton {
+    background-color: rgb(68, 67, 67);
+    color: white !important;
+    height: 40px;
+    width: 40px;
+    float: right;
+}
+
+.closebutton:hover {
+    background-color: rgb(167, 13, 13) !important;
+    color: white !important;
+}
+
+#closediv {
+    display: inline-block;
+    background-color: rgb(68, 67, 67);
+    width: 100%;
+}
+
+.flex1 {
+    flex: 2;
+    height: 100%;
+    width: 100%;
+}
+
+.menubar {
+    background-color: rgba(116, 79, 216, 0.8);
+    border: 1.5px solid rgb(49, 32, 95) !important;
+}
+
+.appname {
+    font-size: 24pt !important;
+    font-family: cursive;
+    text-shadow: rgb(49, 32, 95) 4px 3px 1px;
+}
+
+.menu {
+    color: white !important;
+    font-size: 16pt;
+    font-family: cursive;
+}
+
+.flex {
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.nav_buttons {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    border-radius: 5px;
+}
+
+.nav_buttons:hover {
+    background-color: white;
+    color: black !important;
+    font-weight: bold;
+}

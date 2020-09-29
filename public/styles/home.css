@@ -1,0 +1,63 @@
+.menubar {
+    background-color: rgba(116, 79, 216, 0.8);
+    border: 1.5px solid rgb(49, 32, 95) !important;
+}
+
+.appname {
+    font-size: 24pt !important;
+    font-family: cursive;
+    text-shadow: rgb(49, 32, 95) 4px 3px 1px;
+}
+
+.menu {
+    color: white !important;
+    font-size: 16pt;
+    font-family: cursive;
+}
+
+.flex {
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.nav_buttons {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    border-radius: 5px;
+}
+
+.nav_buttons:hover {
+    background-color: white;
+    color: black !important;
+    font-weight: bold;
+}
+
+.button1,
+.button2 {
+    background-color: rgba(116, 79, 216) !important;
+    border: 1.5px solid rgb(49, 32, 95) !important;
+    font-family: cursive;
+    color: white;
+}
+
+.bookname {
+    float: left;
+    font-family: cursive;
+    color: rgb(49, 32, 95);
+}
+
+.button1:hover,
+.button2:hover {
+    background-color: rgb(49, 32, 95) !important;
+    border: 1.5px solid rgba(116, 79, 216) !important;
+}
+
+.button1:active,
+.button2:active {
+    background-color: rgb(49, 32, 95) !important;
+    border: 4px solid rgba(116, 79, 216) !important;
+}

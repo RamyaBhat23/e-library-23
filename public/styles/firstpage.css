@@ -1,0 +1,47 @@
+#center {
+    border: rgba(255, 255, 255, 0.466) 1px solid;
+    border-radius: 10px;
+    width: 500px;
+    height: 250px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(116, 79, 216, 0.7);
+    color: rgb(5, 43, 49);
+    font-family: cursive;
+    font-size: 16pt;
+}
+
+body {
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+}
+
+.buttons {
+    background-color: rgba(183, 166, 230) !important;
+    color: rgba(49, 32, 95) !important;
+    font-family: cursive !important;
+    border: rgb(49, 32, 95) 1px solid !important;
+    font-size: large !important;
+}
+
+#buttonscontainer {
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+}
+
+#appname {
+    top: 5px;
+    color: rgb(255, 255, 255) !important;
+    font-family: cursive !important;
+    font-weight: 3px !important;
+    font-size: 32pt;
+    text-shadow: rgba(49, 32, 95) 2px 2px 2px;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+}
